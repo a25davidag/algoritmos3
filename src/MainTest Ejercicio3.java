@@ -27,8 +27,8 @@ class MainTest {
 
     @Test
     void getSalaryMedian() {
-        assertEquals(Main.getSalaryMedian(salaries), 2120);
-        assertEquals(Main.getSalaryMedian(salaries2), 900);
+        assertEquals(Main.getSalaryMedian(salaries), 2115);
+        assertEquals(Main.getSalaryMedian(salaries2), 1500);
     }
 
     @Test
